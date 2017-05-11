@@ -18,7 +18,9 @@ RUN apt-get update && \
     				   zip \
     				   unzip \ 
     				   wget\
-    				   curl
+    				   curl \
+                       ssh \ 
+                       rsync
 
 
 # JAVA
