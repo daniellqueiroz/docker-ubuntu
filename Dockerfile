@@ -1,7 +1,11 @@
 
+
 FROM ubuntu:14.04
 
 MAINTAINER Daniel Queiroz <daniellqueiroz@gmail.com>
+
+
+# PRE-REQUISITES
 
 RUN apt-get update && \
     apt-get upgrade -y && \
@@ -17,10 +21,10 @@ RUN apt-get update && \
     				   git \
     				   zip \
     				   unzip \ 
-    				   wget\
-    				   curl \
-                       ssh \
-                       rsync
+    				   wget \
+    				   curl \ 
+    				   ssh \
+    				   rsync
 
 
 # JAVA
@@ -41,4 +45,5 @@ VOLUME /workspace
 
 
 CMD ["bash"]
+
 
