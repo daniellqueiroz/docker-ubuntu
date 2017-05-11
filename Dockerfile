@@ -19,7 +19,7 @@ RUN apt-get update && \
     				   unzip \ 
     				   wget\
     				   curl \
-                       ssh \ 
+                       ssh \
                        rsync
 
 
