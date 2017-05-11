@@ -3,9 +3,6 @@ FROM ubuntu:14.04
 
 MAINTAINER Daniel Queiroz <daniellqueiroz@gmail.com>
 
-
-# PRE-REQUISITES
-
 RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y software-properties-common \
