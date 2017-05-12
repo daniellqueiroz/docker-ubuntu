@@ -1,5 +1,5 @@
 
-FROM ubuntu:latest
+FROM ubuntu:14.04
 
 MAINTAINER Daniel Queiroz <daniellqueiroz@gmail.com>
 
@@ -47,6 +47,7 @@ CMD ["/bin/bash"]
 
 # expose ports
 EXPOSE 50020 50090 50070 50010 50075 8031 8032 8033 8040 8042 49707 22 8080 8088 8188 8030 9999 10000 10001
+
 
 
 
