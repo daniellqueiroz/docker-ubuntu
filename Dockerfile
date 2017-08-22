@@ -29,7 +29,7 @@ RUN apt-get update && \
 # java
 ARG JAVA_ARCHIVE=http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-x64.tar.gz
 
-ENV JAVA_HOME /usr/local/jdk1.8.0_121
+ENV JAVA_HOME /usr/local/jdk1.8.0_144
 ENV PATH $PATH:$JAVA_HOME/bin
 
 RUN curl -sL --retry 3 --insecure \
