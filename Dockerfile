@@ -27,7 +27,7 @@ RUN apt-get update && \
 
 
 # java
-ARG JAVA_ARCHIVE=http://download.oracle.com/otn-pub/java/jdk/8u121-b13/e9e7ea248e2c4826b92b3f075a80e441/server-jre-8u121-linux-x64.tar.gz
+ARG JAVA_ARCHIVE=http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-x64.tar.gz
 
 ENV JAVA_HOME /usr/local/jdk1.8.0_121
 ENV PATH $PATH:$JAVA_HOME/bin
